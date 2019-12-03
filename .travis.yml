@@ -1,8 +1,0 @@
-language: node_js
-node_js:
-  - 13.2.0
-script:
-  - npm run lint
-branches:
-  only:
-    - master

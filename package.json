@@ -1,12 +1,32 @@
 {
-  "name": "node-boilerplate",
-  "version": "1.0.0",
-  "description": "node boilerplate",
-  "main": "app.js",
-  "private": true,
-  "scripts": {
-    "lint": "eslint --fix ."
+  "name": "set-node-env",
+  "version": "0.0.1",
+  "description": "Set node env from .env and .env.mode",
+  "main": "src/index.js",
+  "bin": {
+    "set-node-env": "src/bin/cli.js",
+    "setnodeenv": "src/bin/cli.js"
   },
+  "scripts": {
+    "lint": "eslint --fix src"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:bytetalk/set-node-env.git"
+  },
+  "keywords": [
+    "set-node-env",
+    ".env",
+    ".env.development",
+    ".env.test",
+    ".env.production",
+    ".env.mode",
+    "process.env",
+    "environment",
+    "env",
+    "node",
+    "set"
+  ],
   "devDependencies": {
     "eslint": "^6.7.2",
     "eslint-config-standard": "^14.1.0",
