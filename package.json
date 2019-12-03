@@ -4,8 +4,8 @@
   "description": "Set node env from .env and .env.mode",
   "main": "src/index.js",
   "bin": {
-    "set-node-env": "src/bin/cli.js",
-    "setnodeenv": "src/bin/cli.js"
+    "set-node-env": "bin/cli.js",
+    "setnodeenv": "bin/cli.js"
   },
   "scripts": {
     "lint": "eslint --fix src"
