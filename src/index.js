@@ -1,10 +1,10 @@
 const fs = require('fs')
 const KEY_VALUE_SEPARATOR = '='
 const END_OF_LINE = /\n|\r|\r\n/
-let debugMode
+let debugMode = false
 
 function log (message) {
-  if (debugMode !== undefined && debugMode !== 'false') {
+  if (debugMode) {
     console.log(`[set-node-env][debug] ${message}`)
   }
 }

@@ -21,9 +21,21 @@ function parseArgs () {
   return ret
 }
 
-const {
+let {
   mode,
   debug,
 } = parseArgs()
+if (debug) {
+  if (debug === 'false') {
+    debug = false
+  } else {
+    debug = true
+  }
+} else {
+  if (debug === '') {
+    debug = true
+  } else {
+    debug = false
+  }
+}
 setEnv(mode, debug)
-// todo run executable
