@@ -8,7 +8,7 @@
     "setnodeenv": "bin/cli.js"
   },
   "scripts": {
-    "lint": "eslint --fix src"
+    "lint": "eslint --fix src bin"
   },
   "repository": {
     "type": "git",
