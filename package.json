@@ -1,6 +1,6 @@
 {
   "name": "set-node-env",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Set node env from .env and .env.mode",
   "main": "src/index.js",
   "bin": {
